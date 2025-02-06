@@ -84,6 +84,17 @@ article {
     width: 50%;
 }
 
+article fieldset{
+    padding: 10pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+article label {
+    margin-top: 10pt;
+    padding: 5pt;
+}
+
 @media screen and (max-width: 1600px){
     nav{
         flex-flow:column nowrap;
