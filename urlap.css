@@ -76,3 +76,40 @@ nav ul a:hover {
 nav ul img {
     height: 75px;
 }
+
+
+article {
+    padding-top: 20pt;
+    margin: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 1600px){
+    nav{
+        flex-flow:column nowrap;
+        gap: 0pt;
+        height:auto;
+        padding: 0pt;
+
+    }
+
+    nav ul {
+        
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+        flex-flow:column nowrap;
+        gap: 0pt;
+        height:auto;
+        padding: 0pt;
+
+    }
+
+    nav ul {
+        flex-flow: column nowrap;
+    }
+
+}

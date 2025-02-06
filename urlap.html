@@ -35,9 +35,46 @@
             <form action="">
                 <fieldset>
                     <legend>Alap adatok</legend>
+                    <label for="etelnev">Étel neve:</label><br>
+                    <input type="text" id="etelnev" name="etelnev"><br>
+                    <fieldset>
+                    <legend>Allergének</legend>
+                    <input type="checkbox" id="Cukor" name="cukor" value="cukor">
+                    <label for="vehicle1"> Cukor</label><br>
+                    <input type="checkbox" id="laktoz" name="laktoz" value="laktoz">
+                    <label for="vehicle2"> Laktóz</label><br>
+                    <input type="checkbox" id="gluten" name="gluten" value="gluten">
+                    <label for="vehicle3"> Glutén</label><br>
+                    <input type="checkbox" id="tej" name="tej" value="tej">
+                    <label for="vehicle4"> Tej</label><br>
+                    <input type="checkbox" id="tojas" name="tojas" value="tojas">
+                    <label for="vehicle5"> Tojás</label><br>
+                    </fieldset>
+                    <label for="elkido">Elkészítési idő(p):</label>
+                    <input type="number" id="elkido" name="elkido" min="1" max="1200"> <span>perc</span>
+                    <fieldset>
+                        <legend>Nehézség</legend>
+                        <input type="radio" id="konnyu" name="nehezseg" value="konnyu">
+                        <label for="konnyu">Könnyű</label><br>
+                        <input type="radio" id="kozepes" name="nehezseg" value="kozepes">
+                        <label for="kozepes">Közepes</label><br>
+                        <input type="radio" id="nehez" name="nehezseg" value="nehez">
+                        <label for="nehez">Nehéz</label>
+                    </fieldset>
+                    <label for="kcal">Kalória adagonként(kcal/adag):</label>
+                    <input type="kcal" id="kcal" name="kcal" min="1" max="12"> <span>kcal/adag</span><br>
+                    <label for="adag">Adagok száma::</label>
+                    <input type="number" id="adag" name="adag" min="1" max="12"> <span>adag</span>
                 </fieldset>
                 <fieldset>
+                    <label for="w3review">Hozzávalók:</label><br>
+                    <textarea id="hozzavalok" name="hozzavalok" rows="10" cols="100">
+                    </textarea><br>
                     <legend>Részletek</legend>
+                    <label for="w3review">Elkészítés módja:</label><br>
+                    <textarea id="elkmod" name="elkmod" rows="10" cols="100">
+                    </textarea><br>
+                    
                 </fieldset>
             </form>
         </article>
