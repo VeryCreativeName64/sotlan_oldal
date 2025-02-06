@@ -10,7 +10,6 @@ img {
 }
 
 nav {
-
   border-top: 1pt solid lightgrey;
   border-bottom: 1pt solid lightgrey;
   padding-left: 250pt;
@@ -22,7 +21,7 @@ nav {
   justify-content: flex-start;
   gap: 150pt;
   align-items: center;
-
+  
 }
 
 nav ul {
@@ -82,7 +81,6 @@ article {
 
   padding: 5px;
   flex: 50%;
-
 }
 
 .receptek {

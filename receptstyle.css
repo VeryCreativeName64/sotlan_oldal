@@ -5,7 +5,9 @@
 }
 
 nav {
-    
+    position:fixed;
+    top:0;
+    left:0;
     border-top: 1pt solid lightgrey;
     border-bottom: 1pt solid lightgrey;
     padding-left: 10%;
@@ -17,6 +19,7 @@ nav {
     justify-content: flex-start;
     gap: 150pt;
     align-items: center;
+    background-color: white;
     
 }
 
@@ -75,6 +78,7 @@ nav ul img {
 article{
     max-width: 800px;
     margin: auto;
+    margin-top: 100pt;
     /*border: 2px dashed pink;*/
 }
 
