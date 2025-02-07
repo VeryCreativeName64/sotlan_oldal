@@ -10,18 +10,20 @@ img {
 }
 
 nav {
-    
+    position: fixed;
+    top:0;
+    left:0;
     border-top: 1pt solid lightgrey;
     border-bottom: 1pt solid lightgrey;
-    padding-left: 250pt;
     padding-bottom: 0;
     padding-top: 2pt;
     height: 65pt;
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
-    gap: 150pt;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: white;
     
 }
 
@@ -82,6 +84,7 @@ article {
     padding-top: 20pt;
     margin: auto;
     width: 50%;
+    margin-top: 60pt;
 }
 
 article fieldset{
@@ -95,17 +98,14 @@ article label {
     padding: 5pt;
 }
 
-@media screen and (max-width: 1600px){
+@media screen and (max-width: 1300px){
     nav{
         flex-flow:column nowrap;
         gap: 0pt;
         height:auto;
         padding: 0pt;
+        position: relative;
 
-    }
-
-    nav ul {
-        
     }
 
 }
@@ -116,6 +116,7 @@ article label {
         gap: 0pt;
         height:auto;
         padding: 0pt;
+        position: relative;
 
     }
 
